@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<br>
+First name: <input type="text" name="firstname"><br> Last name: <input type="text" name="lastname"><br>
+
+ 
+
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Job Application</title>
@@ -145,6 +151,64 @@
 			</div>
 		</div>
 		<div class="form-group row">
+
+
+<label class="col-sm-12 control-label">Have you previously had a leadership position?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="radio">
+					<label>
+						<input type="radio" name="legal" value="yes">Yes
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="legal" value="no">No
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+
+<label class="col-sm-12 control-label">What is your gender?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="radio">
+					<label>
+<input type="checkbox" name="vehicle" value="Bike"> I am male<br>
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+<input type="checkbox" name="vehicle" value="Car"> I am female
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+<input type="checkbox" name="vehicle" value="Bike"> Other<br>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+
+
+<label class="col-sm-12 control-label">What is your age?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="radio">
+					<label>
+<select name="cars"> <option value="volvo">15-24</option> <option value="saab">25-34</option> <option value="fiat">35-44</option> <option value="audi">45-54</option> <option value="fiat">55+</option> </select>
+
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+
+
+
+
+
+
+
 			<label class="col-sm-12 control-label">What type of position are you seeking? (check all that apply)</label>
 			<div class="col-sm-offset-1 col-sm-11">
 				<div class="checkbox">
@@ -226,11 +290,22 @@
 		</div>
 	</fieldset>
 
+Reference number: <input type="referencenumber" name="ref"><br><br>
+
+Type any additional comments here:
+<textarea name="essay">Type here...</textarea><br>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post"> ... </form>
+
+
 	<p>&nbsp;</p>
 
 	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 
 	<p>&nbsp;</p>
+
+
+
 
 </form>
 </div><!-- close .container -->
