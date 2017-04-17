@@ -70,3 +70,18 @@ color: white;
     font-weight: bold;
     font-size: 24px;
 }
+
+table{ color: #FFBC00; font-size: 40px; font-family: "Passion One"; margin-bottom: 0px;
+    margin-bottom: 10px;
+
+}
+
+#Header2{ color: #FFBC00; font-size: 40px; font-family: "Passion One"; margin-bottom: 0px;
+border: solid 8px black;
+    text-align: center;
+    padding: 15px;
+    color: white; font-family: arial;
+
+}
+
+<input type="text" name="firstname"><br> Last name: <input type="text" name="lastname">
